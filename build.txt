@@ -1,0 +1,11 @@
+pyinstaller --onefile --noconsole --add-data "NES Games;NES Games" --add-data "NES Games\fceux.exe;NES Games" --add-data "new_arrow.png;." --add-data "move.mp3;." --add-data "move.wav;." --add-data "select.wav;." --add-data "PressStart2P.ttf;." nes.py
+
+
+nuitka --standalone --onefile --enable-plugin=tk-inter --windows-console-mode=disable ^
+--include-data-dir="NES Games=NES Games" ^
+--include-data-file="move.mp3=move.mp3" ^
+--include-data-file="select.wav=select.wav" ^
+--include-data-file="move.wav=move.wav" ^
+--include-data-file="PressStart2P.ttf=PressStart2P.ttf" ^
+--include-data-file="new_arrow.png=new_arrow.png" ^
+nes.py
