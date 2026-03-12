@@ -19,4 +19,4 @@
    pip install pygame
 3. Run:
    ```bash
-  python nes.py
+   python nes.py
