@@ -15,8 +15,8 @@
    ```bash
    git clone https://github.com/yourusername/RetroVault.git
 2. Install dependencies:
+   ```bash
   pip install pygame
-  
 3. Run:
+   ```bash
   python nes.py
-  pip install pygame
