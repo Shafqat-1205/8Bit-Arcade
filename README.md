@@ -13,7 +13,7 @@
 ### Run from Source
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/RetroVault.git
+   git clone https://github.com/Shafqat-1205/8Bit-Arcade.git
 2. Install dependencies:
    ```bash
    pip install pygame
